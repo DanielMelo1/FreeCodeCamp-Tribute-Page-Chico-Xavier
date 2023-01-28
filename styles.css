@@ -86,3 +86,38 @@ h3 {
     font-size: 20px;
     margin: 16px 0;
 }
+
+@media only screen and (max-width: 560px) {
+    #young-info p {
+        width: 340px;
+        margin-left: -38px;
+    }
+
+    #img-div {
+        margin: 18px;
+        margin-left: 16px;
+    }
+
+    #tribute-info>ul>li {
+        margin: 20px 0px 20px -38px;
+        width: 310px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+
+    #tribute-info>ul>li {
+        margin: 20px 0px 20px -64px;
+        width: 318px;
+    }
+
+    #young-info p {
+        width: 318px;
+
+    }
+}
